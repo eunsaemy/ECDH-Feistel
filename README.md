@@ -12,8 +12,13 @@ A Client-Server model that facilitates encrypted files between a server and a mi
 
 ### To run server.py:
 
-```python server.py -i [ip] -p [port]```
+```python server.py -i [server_ip] -p [port]```
+```python server.py -i 192.168.0.10 -p 8000```
 
 ### To run client.py:
 
-```python client.py -i [ip] -p [port] -f [file_name] -n [client_name] -e (optional)```
+```python client.py -i [server_ip] -p [port] -f [file_name] -n [client_name] -e (optional)```
+
+```python client.py -i 192.168.0.10 -p 8000 -f alice.txt -n 192.168.0.11```
+
+```python client.py -i 192.168.0.10 -p 8000 -f alice.txt -n 192.168.0.11 -e```
