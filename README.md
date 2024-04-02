@@ -50,10 +50,10 @@ A Client-Server model that facilitates encrypted files between a server and a mi
 
 ### Design:
 
-#### server.py:
+#### server.py
 
 ![image](https://github.com/eunsaemy/ECDH_Feistel/assets/45950166/9e4fe6e4-c9db-4b93-af93-5817f80f54cf)
 
-#### client.py:
+#### client.py
 
 ![image](https://github.com/eunsaemy/ECDH_Feistel/assets/45950166/fbff8186-8256-4113-80fb-ab692afccb6c)
