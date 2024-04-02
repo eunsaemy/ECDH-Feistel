@@ -32,14 +32,18 @@ A Client-Server model that facilitates encrypted files between a server and a mi
 
 ### Results:
 
-#### animal.bmp:
+#### animal.bmp (original):
 
 ![image](https://github.com/eunsaemy/ECDH_Feistel/assets/45950166/daff9a7c-fb54-44e7-bc8c-5dc47ba106ea)
 
-### animal.bmp (CBC Mode):
+#### encrypted (CBC Mode):
 
 ![image](https://github.com/eunsaemy/ECDH_Feistel/assets/45950166/f8617860-8b65-449f-80dc-3f12f679f92d)
 
-### animal.bmp (ECB Mode):
+#### encrypted (ECB Mode):
 
 ![image](https://github.com/eunsaemy/ECDH_Feistel/assets/45950166/f2d3c148-0ba2-4afd-a984-901523b4de67)
+
+#### decrypted:
+
+![image](https://github.com/eunsaemy/ECDH_Feistel/assets/45950166/7d646c31-550c-414c-927d-de552963330e)
