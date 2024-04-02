@@ -29,3 +29,11 @@ A Client-Server model that facilitates encrypted files between a server and a mi
 #### Example (ECB Mode):
 
 ```python client.py -i 192.168.0.10 -p 8000 -f animal.bmp -n 192.168.0.11 -e```
+
+### Results:
+
+#### animal.bmp:
+
+![image](https://github.com/eunsaemy/ECDH_Feistel/assets/45950166/daff9a7c-fb54-44e7-bc8c-5dc47ba106ea)
+
+![image](https://github.com/eunsaemy/ECDH_Feistel/assets/45950166/3a542f73-fbb2-4945-a420-17e77dc84bba)
