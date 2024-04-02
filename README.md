@@ -22,6 +22,10 @@ A Client-Server model that facilitates encrypted files between a server and a mi
 
 ```python client.py -i [server_ip] -p [port] -f [file_name] -n [client_name] -e (optional)```
 
+#### Example (CBC Mode):
+
 ```python client.py -i 192.168.0.10 -p 8000 -f alice.txt -n 192.168.0.11```
+
+#### Example (ECB Mode):
 
 ```python client.py -i 192.168.0.10 -p 8000 -f alice.txt -n 192.168.0.11 -e```
