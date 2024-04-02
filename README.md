@@ -13,6 +13,9 @@ A Client-Server model that facilitates encrypted files between a server and a mi
 ### To run server.py:
 
 ```python server.py -i [server_ip] -p [port]```
+
+#### Example:
+
 ```python server.py -i 192.168.0.10 -p 8000```
 
 ### To run client.py:
